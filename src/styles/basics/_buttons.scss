@@ -1,0 +1,28 @@
+.btn {
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.bar-btn {
+  border: 2px solid #ffffff;
+}
+
+.bar-btn:hover {
+  background-color: #ffffff;
+  color: $clr1;
+}
+
+.cta-contact {
+  border: 2px solid $clr2;
+  margin-right: 98px;
+
+  @include for-tablet-layout {
+    margin-right: 0;
+  }
+}
+
+.cta-contact:hover {
+  background-color: $clr2;
+  color: #ffffff;
+}

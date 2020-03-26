@@ -1,0 +1,50 @@
+.forecast-filter-container {
+  position: relative;
+  height: 28px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid $clr3;
+  //   box-shadow: 1px 1px 3px $clr3;
+  text-indent: 15px;
+  font-family: inherit;
+  //   font-size: rem(14px);
+  background-color: $clr1;
+  overflow: hidden;
+  margin-left: 15px;
+  //   padding-top: 20px;
+}
+
+.forecast-filter-select-container {
+  position: relative;
+  width: 100px;
+  background-image: url(../../assets/icons/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 80px 11px;
+  background-size: 9px;
+  //   margin-top: -1px;
+}
+
+.forecast-filter {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background: $clr1;
+  width: 100px;
+  height: 250px;
+  border-radius: 6px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid $clr3;
+  //   box-shadow: 1px 1px 3px $clr3;
+}
+
+.filter-option {
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.filter-option:hover {
+  color: $clr3;
+}

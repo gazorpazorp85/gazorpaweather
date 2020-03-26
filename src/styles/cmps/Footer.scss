@@ -1,0 +1,46 @@
+.footer {
+  border-top: 1px solid $clr3;
+  height: 60px;
+  width: 60%;
+}
+
+.footer-logo-container {
+  position: relative;
+  width: 180px;
+  background-color: #ffffff;
+  top: -15px;
+}
+
+.icon8-container {
+  position: absolute;
+  width: inherit;
+  align-self: center;
+  justify-content: center;
+}
+
+@include for-tablet-layout {
+  .footer {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .footer-logo-container {
+    width: 190px;
+    left: -250px;
+  }
+
+  .icon8-container {
+    width: unset;
+  }
+}
+
+@include for-mobile-layout {
+  .footer {
+    width: 100%;
+  }
+
+  .footer-logo-container {
+    left: -120px;
+    text-align: center;
+  }
+}

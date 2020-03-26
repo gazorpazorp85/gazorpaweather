@@ -1,0 +1,16 @@
+.forecast-list-container {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+@include for-tablet-layout {
+  .forecast-list-container {
+    margin-top: 40px;
+  }
+}
+
+@include for-mobile-layout {
+  .forecast-list-container {
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,40 @@
+.forecast-preview-container {
+  width: 19%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.forecast-preview-container div:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.forecast-preview-container div:first-child {
+  margin-bottom: 10px;
+}
+
+.forecast-icon-container {
+  height: 75px;
+  width: 75px;
+
+  img {
+    height: 100%;
+  }
+}
+
+@include for-tablet-layout {
+  .forecast-preview-container {
+    text-align: center;
+  }
+
+  .forecast-icon-container {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+// @include for-mobile-layout {
+//   .forecast-preview-container {
+//     text-align: center;
+//   }
+// }

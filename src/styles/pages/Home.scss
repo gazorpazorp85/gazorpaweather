@@ -1,0 +1,16 @@
+.home {
+  width: 100%;
+  align-items: center;
+}
+
+.logo-container {
+  height: 620px;
+  width: 78%;
+  margin-top: 30px;
+}
+
+@include for-mobile-layout {
+  .logo-container {
+    height: 500px;
+  }
+}
