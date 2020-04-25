@@ -26,7 +26,6 @@ export default function SearchBar(props) {
 
     return (
         <div className="flex column search-bar-container">
-            {/* <div className="uppercase location-title">location</div> */}
             <div className="flex search-bar-subcontainer">
                 <div className="flex search-input-container">
                     <input id="search-bar" type="text" placeholder="Enter a city" value={location}

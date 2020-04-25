@@ -9,7 +9,7 @@
 // }
 
 .search-bar-subcontainer {
-  margin-top:15px;
+  margin-top: 15px;
   width: 100%;
   justify-content: center;
 }
@@ -42,6 +42,7 @@
 
 .units-container {
   margin-left: 30px;
+  border-radius: 6px;
 }
 
 .unit-container {
@@ -50,8 +51,7 @@
 }
 
 .units-container:last-child {
-  border: 1px solid $clr3;
-  border-radius: 6px;
+  border: 1px solid $clr3; 
 }
 
 .selected {
@@ -72,5 +72,11 @@
 @include for-mobile-layout {
   .search-bar-container {
     width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .search-bar-subcontainer {
+    margin-top: 0px;
   }
 }
